@@ -1,0 +1,92 @@
+
+.container_1 {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro, se necessário */
+   
+}
+
+.profile-div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.img-profile {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center !important;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #e0e0e0;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.img-profile h4 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.img-profile h5 {
+    font-size: 18px;
+    color: #777;
+}
+
+.level-bar p {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.progress {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    height: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.determinate {
+    background-color: #f44336;
+    height: 100%;
+    border-radius: 20px;
+}
+
+table.highlight {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table.highlight thead th {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 10px;
+    color: #f44336;
+    border-bottom: 2px solid #ddd;
+}
+
+table.highlight tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table.highlight tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+table.highlight tbody td {
+    padding: 10px 5px;
+    font-size: 14px;
+}
+
+table.highlight tbody td i.material-icons {
+    font-size: 20px;
+}

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.nome{
+  color: brown;
+  text-align: center;
+}
+
+header {
+  min-height: 100vh;
+  width: 100vw;
+  background: url("../../img/42\ Quiz\ logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-content: center;
+  align-items: flex-end;
+  justify-content: center;
+}
